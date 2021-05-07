@@ -1,0 +1,113 @@
+body {
+  background-color: hsl(0, 0%, 95%);
+  font-size: 15px;
+  font-family: 'Lexend Deca', sans-serif;
+}
+
+h1 {
+  font-family: 'Big Shoulders Display', cursive;
+  color: hsl(0, 0%, 95%);
+}
+
+p {
+  color: hsla(0, 0%, 100%, 0.75);
+}
+
+button {
+  background-color: hsl(0, 0%, 95%);
+  font-family: 'Lexend Deca', sans-serif;
+  font-weight: bold;
+  margin-top: 10px;
+  padding: 15px 40px;
+  border-radius: 25px;
+  border-color: transparent;
+}
+
+.card button:active {
+  color: hsl(0, 0%, 95%);
+  background-color: transparent;
+  border: 2px solid  hsl(0, 0%, 95%);
+}
+
+footer p {
+  text-align: center;
+  font-size: 10px;
+  color: hsl(0, 0%, 19%);
+}
+
+a {
+  color: hsl(245, 17%, 55%);
+}
+
+a:hover {
+  color: hsl(245, 15%, 71%);
+}
+
+.main {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 70px;
+  margin-bottom: 50px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.card {
+  padding: 35px 45px;
+}
+
+.card-1 {
+  background-color: hsl(31, 77%, 52%);
+}
+
+.card-1 button {
+  color: hsl(31, 77%, 52%);
+}
+
+.card-2 {
+  background-color: hsl(184, 100%, 22%);
+}
+
+.card-2 button {
+  color: hsl(184, 100%, 22%);
+}
+
+.card-3 {
+  background-color: hsl(179, 100%, 13%);
+}
+
+.card-3 button {
+  color: hsl(179, 100%, 13%);
+}
+
+@media (min-width: 992px) {
+  .main {
+    margin-top: 120px;
+    display: flex;
+    width: 90%;
+  }
+
+}
+
+@media (min-width: 1024px) {
+  .main {
+    width: 90%;
+  }
+
+  h1 {
+    padding-top: 20px;
+  }
+
+  p {
+    padding-top: 20px;
+    padding-bottom: 50px;
+  }
+
+}
+
+@media (min-width: 1200px) {
+  .main {
+    width: 65%;
+  }
+}
